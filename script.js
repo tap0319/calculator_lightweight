@@ -62,3 +62,11 @@ document.addEventListener('keydown', (event) => {
     display.value = '';
   }
 });
+
+//theme toggle //
+
+const themeSwitch = document.getElementById('theme-switch');
+
+themeSwitch.addEventListener('change', () => {
+  document.body.classList.toggle('light');
+});
